@@ -28,7 +28,7 @@ a {
 }
 
 .tab_item {
-    width: calc(100%/2);
+    width: calc(100%/7);
     height: 50px;
     border-bottom: 3px solid #333333;
     background-color: #f8f8f8;
@@ -49,7 +49,7 @@ a {
 }
 
 .day_tab_item {
-    width: calc(100%/4);
+    width: calc(100%/8);
     height: 50px;
     border-bottom: 3px solid #333333;
     background-color: #f8f8f8;
@@ -86,14 +86,22 @@ input[name="day_tab_item"] {
 }
 
 #Apr:checked~#Apr_content,
-#May:checked~#May_content {
+#May:checked~#May_content,
+#Apr:checked~#dbr_content,
+#Apr:checked~#clf_content,
+#Apr:checked~#vkf_content,
+#Apr:checked~#rm_content,
+#Apr:checked~#tlq_content {
     display: block;
 }
 
 #Apr_22:checked~#Apr22_content,
 #Apr_23:checked~#Apr23_content,
 #Apr_24:checked~#Apr24_content,
-#Apr_25:checked~#Apr25_content {
+#Apr_25:checked~#Apr25_content,
+#Apr_25:checked~#Apr28_content,
+#Apr_25:checked~#Apr29_content,
+#Apr_25:checked~#Apr30_content {
     display: block;
 }
 
